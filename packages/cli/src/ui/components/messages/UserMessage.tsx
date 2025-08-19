@@ -17,8 +17,8 @@ export const UserMessage: React.FC<UserMessageProps> = ({ text }) => {
   const prefixWidth = prefix.length;
   const isSlashCommand = text.startsWith('/');
 
-  const textColor = isSlashCommand ? Colors.AccentPurple : Colors.Gray;
-  const borderColor = isSlashCommand ? Colors.AccentPurple : Colors.Gray;
+  const textColor = isSlashCommand ? Colors.AccentPurple : Colors.AccentBlue;
+  const borderColor = isSlashCommand ? Colors.AccentPurple : Colors.AccentBlue;
 
   return (
     <Box
